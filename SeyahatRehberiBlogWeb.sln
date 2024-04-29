@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeyahatRehberiBlogWeb", "SeyahatRehberiBlogWeb\SeyahatRehberiBlogWeb.csproj", "{C53AB359-BC6E-4181-9881-DBC343856B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriErisimKatmani", "VeriErisimKatmani\VeriErisimKatmani.csproj", "{BED778E8-F9A7-41B4-BE2E-F5B96359AE6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C53AB359-BC6E-4181-9881-DBC343856B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53AB359-BC6E-4181-9881-DBC343856B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53AB359-BC6E-4181-9881-DBC343856B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53AB359-BC6E-4181-9881-DBC343856B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED778E8-F9A7-41B4-BE2E-F5B96359AE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED778E8-F9A7-41B4-BE2E-F5B96359AE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED778E8-F9A7-41B4-BE2E-F5B96359AE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED778E8-F9A7-41B4-BE2E-F5B96359AE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5446D73E-D0BA-4F0C-98CB-BBE95F9A30F6}
+	EndGlobalSection
+EndGlobal

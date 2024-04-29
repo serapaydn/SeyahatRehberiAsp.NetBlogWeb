@@ -1,0 +1,89 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: Fabrizo;
+}
+
+.tasiyici {
+    padding: 20px;
+    border: 2px solid #9f634e;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    margin: 150px auto 0 auto;
+}
+
+.baslik {
+    text-align: center;
+}
+
+    .baslik label {
+        font-size: 20px;
+        color: #9f634e;
+    }
+
+.icerik {
+    padding: 5px 0;
+}
+
+.satir {
+    margin-top: 15px;
+}
+
+    .satir label {
+        color: #9f634e;
+        text-align: left;
+        display: flex;
+    }
+
+.metinkutu {
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+    .metinkutu:focus {
+        outline: 2px solid #9f634e;
+    }
+
+
+
+.tiklabutton {
+    width: 100%;
+    height: 40px;
+    background-color: #9f634e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16pt;
+    margin-top: 30px;
+    font-family: Calibri;
+}
+
+    .tiklabutton:hover {
+        background-color: #7f9288;
+    }
+
+.sus {
+    border-bottom: 1px solid #9f634e;
+    padding: 10px;
+}
+
+.basarisizpanel {
+    background-color: #9f634e;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #9f634e;
+    margin: 15px 0;
+}

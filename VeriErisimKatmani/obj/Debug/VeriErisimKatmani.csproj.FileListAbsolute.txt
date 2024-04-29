@@ -1,0 +1,6 @@
+C:\Users\serap\source\repos\SeyahatRehberiBlogWeb\VeriErisimKatmani\bin\Debug\VeriErisimKatmani.dll
+C:\Users\serap\source\repos\SeyahatRehberiBlogWeb\VeriErisimKatmani\bin\Debug\VeriErisimKatmani.pdb
+C:\Users\serap\source\repos\SeyahatRehberiBlogWeb\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.csproj.AssemblyReference.cache
+C:\Users\serap\source\repos\SeyahatRehberiBlogWeb\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.csproj.CoreCompileInputs.cache
+C:\Users\serap\source\repos\SeyahatRehberiBlogWeb\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.dll
+C:\Users\serap\source\repos\SeyahatRehberiBlogWeb\VeriErisimKatmani\obj\Debug\VeriErisimKatmani.pdb

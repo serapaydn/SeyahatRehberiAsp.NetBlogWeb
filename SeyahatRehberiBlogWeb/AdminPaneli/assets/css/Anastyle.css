@@ -1,0 +1,67 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Fabrizo;
+}
+
+.ustMenu {
+    background-color: #f6f6f6;
+    padding: 30px 10px;
+    color: #9f634e;
+    border-bottom: 4px solid #9f634e;
+}
+
+    .ustMenu .baslik {
+        float: left;
+        padding-left: 30px;
+        font-size: 15pt;
+    }
+
+    .ustMenu .kullanici {
+        float: right;
+        font-size: 13pt;
+    }
+
+        .ustMenu .kullanici a {
+            color: #9f634e;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 13pt;
+        }
+
+            .ustMenu .kullanici a:hover {
+                text-decoration: underline;
+            }
+
+.icerikTasiyici {
+}
+
+.altMenu {
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+ 
+}
+
+    .altMenu a {
+        text-decoration: none;
+        padding: 8px 25px;
+        color: #9f634e;
+    }
+
+        .altMenu a:hover {
+            background-color: #9f634e;
+            color: #f6f6f6;
+        }
+
+.icerik {
+    width: 80%;
+    min-height: 800px;
+    float: left;
+    padding: 20px;
+}

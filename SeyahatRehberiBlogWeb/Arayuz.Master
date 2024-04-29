@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Arayuz.master.cs" Inherits="SeyahatRehberiBlogWeb.Arayuz" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>SeyahatRehberi</title>
+    <link href="assests/css/Arayuzstyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="UstPanel ">
+                <a href="Default.aspx">ANASAYFA</a>
+                <a href="Hakkimizda.aspx">HAKKIMIZDA</a>
+                <a href="Iletisim.aspx">İLETİŞİM</a>
+            </div>
+            <div class="tasiyici ">
+                <div class="logoPanel">
+                    <a href="https://www.google.com/search?q=instagram/seyahatrehberii">
+                        <img src="assests/siteresimleri/1161953_instagram_icon.png" /></a>
+                    <a href="https://tr-tr.facebook.com/seyahatrehberii">
+                        <img src="assests/siteresimleri/211902_social_facebook_icon.png" /></a>
+                    <a href="https://tr.pinterest.com/seyahatrehberii">
+                        <img src="assests/siteresimleri/104469_pinterest_icon.png" /></a>
+                    <a href="https://www.youtube.com/seyahatrehberii">
+                        <img src="assests/siteresimleri/5305164_play_video_youtube_youtube%20logo_icon.png" /></a>
+                    <div>
+                        <a href="Default.aspx">Seyahat Rehberi</a>
+                    </div>
+
+                    <div>
+
+                        <asp:Panel ID="pnl_girisyok" runat="server" class="uyepanel">
+                            <a href="UyeGiris.aspx">Giriş Yap</a>
+                            <a href="UyeOl.aspx">Üye Ol</a>
+                        </asp:Panel>
+
+                        <asp:Panel ID="pnl_girisvar" runat="server" class="uyepanel">
+                            <a href="UyePaneli/profil.aspx">
+                                <asp:Literal ID="ltrl_uye" runat="server"></asp:Literal></a>
+                            <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click">Çıkış</asp:LinkButton>
+                        </asp:Panel>
+                        <div class="arama">
+                            <asp:TextBox ID="tb_Arama" runat="server" CssClass="AramaKutusu" placeholder="Ara..." />
+                            <asp:Button ID="btnAra" runat="server" Text="Ara" CssClass="AramaButonu" OnClick="btnAra_Click" />
+                        </div>
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="kategorimenu">
+            <div class="tasiyici">
+                <asp:Repeater ID="rp_kategoriler" runat="server">
+                    <ItemTemplate>
+                        <a href='Default.aspx?kategoriID=<%# Eval("ID") %>' class="menueleman"><%# Eval("Isim") %></a>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+        </div>
+        <div class="solpanel">
+            <a href="http://www.turhost.com/r/104820/">
+                <img src="assests/reklamgorselleri/120x600.gif" />
+            </a>
+        </div>
+        <div class="tasiyici">
+            <div class="icerik">
+                <asp:Panel ID="pnlAramaSonuc" runat="server">
+                    <asp:Label ID="lblAramaSonuc" runat="server" CssClass="AramaSonucu"></asp:Label>
+                </asp:Panel>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="sagpanel">
+            <label>Seyahat Rehberi Nedir?</label>
+            <img src="assests/siteresimleri/logotasarım.jpeg" />
+            <label2>Seyahat Rehberi'ne hoş geldiniz! Bizler, dünyanın keşfedilmeyi bekleyen köşelerini araştıran ve bu keşifleri sizinle paylaşan bir ekip olarak buradayız. Seyahat tutkumuzla yeni yerler keşfetmenin yanı sıra unutulmaz deneyimler yaşamanızı da hedefliyoruz. Seyahat, farklı kültürlerle tanışma, insanlarla bağlantı kurma ve kendimizi geliştirme fırsatı sunar. Her yolculuğun bir hikayesi vardır ve bu hikayeleri sizinle paylaşmak için buradayız. Seyahat Rehberi, size ilham vermek ve yolculuklarınızı planlamanıza yardımcı olmak için yanınızda. Hazır mısınız? Yeni maceralar için heyecanla bekliyoruz!</label2>
+            <a href="Hakkimizda.aspx">
+                <label3>Hakkımızda</label3>
+            </a>
+        </div>
+        <div style="clear: both"></div>
+        <div class="altpanel">
+        </div>
+
+    </form>
+</body>
+</html>
